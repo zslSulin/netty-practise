@@ -13,7 +13,7 @@ import java.nio.charset.Charset;
  * @date 2018/11/6 14:58
  */
 public class PlainOioServer {
-    public void serve(int port) throws IOException {
+    public void server(int port) throws IOException {
         final ServerSocket socket = new ServerSocket(port);
         try {
             for (;;) {
